@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.quantumjitter.com/about.html</loc>
-    <lastmod>2024-05-24T22:39:52.935Z</lastmod>
+    <loc>https://www.luka-kovacevic.com/project/benchmarking/index.html</loc>
+    <lastmod>2024-05-25T22:38:10.578Z</lastmod>
   </url>
   <url>
-    <loc>https://www.quantumjitter.com/blog/renovate/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/blog/usedthese/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/blog/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/posts/welcome/index.html</loc>
-    <lastmod>2024-05-23T16:35:07.551Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/posts/post-with-code/index.html</loc>
-    <lastmod>2024-05-23T16:35:07.552Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/index.html</loc>
-    <lastmod>2024-05-23T21:01:00.562Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/blog/tail/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/blog/dark/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.quantumjitter.com/blog/plunge/index.html</loc>
+    <loc>https://www.luka-kovacevic.com/blog/plunge/index.html</loc>
     <lastmod>2024-05-03T14:24:02.000Z</lastmod>
   </url>
   <url>
@@ -45,43 +13,39 @@
     <lastmod>2024-05-03T14:24:02.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.luka-kovacevic.com/about.html</loc>
-    <lastmod>2024-05-25T09:41:13.029Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.luka-kovacevic.com/blog/index.html</loc>
-    <lastmod>2024-05-25T09:32:43.146Z</lastmod>
+    <loc>https://www.luka-kovacevic.com/blog/tail/index.html</loc>
+    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.luka-kovacevic.com/index.html</loc>
     <lastmod>2024-07-08T18:26:53.656Z</lastmod>
   </url>
   <url>
-    <loc>https://www.luka-kovacevic.com/blog/usedthese/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.luka-kovacevic.com/blog/tail/index.html</loc>
-    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.luka-kovacevic.com/projects.html</loc>
-    <lastmod>2024-05-25T22:18:09.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.luka-kovacevic.com/project/index.html</loc>
-    <lastmod>2024-05-25T22:32:20.395Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.luka-kovacevic.com/project/forecast/index.html</loc>
-    <lastmod>2024-05-25T22:38:10.578Z</lastmod>
+    <loc>https://www.luka-kovacevic.com/posts/post-with-code/index.html</loc>
+    <lastmod>2024-05-23T16:35:07.552Z</lastmod>
   </url>
   <url>
     <loc>https://www.luka-kovacevic.com/index-old.html</loc>
     <lastmod>2024-05-25T09:29:35.563Z</lastmod>
   </url>
   <url>
-    <loc>https://www.luka-kovacevic.com/project/benchmarking/index.html</loc>
-    <lastmod>2024-05-25T22:38:10.578Z</lastmod>
+    <loc>https://www.luka-kovacevic.com/posts/welcome/index.html</loc>
+    <lastmod>2024-05-23T16:35:07.551Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luka-kovacevic.com/blog/index.html</loc>
+    <lastmod>2024-05-25T09:32:43.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luka-kovacevic.com/blog/usedthese/index.html</loc>
+    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luka-kovacevic.com/blog/renovate/index.html</loc>
+    <lastmod>2024-05-03T14:24:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.luka-kovacevic.com/project/index.html</loc>
+    <lastmod>2024-05-25T22:32:20.395Z</lastmod>
   </url>
 </urlset>

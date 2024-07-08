@@ -1,29 +1,14 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/usedthese/index.html",
-      "/blog/dark/index.html",
-      "/blog/tail/index.html",
-      "/blog/renovate/index.html",
-      "/blog/plunge/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/index-old.html",
     "items": [
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/index.html",
-      "/blog/index.html",
-      "/about.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
       "/blog/usedthese/index.html",
       "/blog/dark/index.html",
       "/blog/tail/index.html",
@@ -35,13 +20,6 @@
     "listing": "/project/index.html",
     "items": [
       "/project/benchmarking/index.html"
-    ]
-  },
-  {
-    "listing": "/index-old.html",
-    "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
     ]
   }
 ]
