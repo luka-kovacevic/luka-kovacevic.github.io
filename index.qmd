@@ -59,7 +59,7 @@ Second-year PhD student in Biostatistics at [Clare Hall](https://www.clarehall.c
 
 <!-- [University of Cambridge]{.blockquote} -->
 
-[email](mailto:luka-kovacevic@mrc-bsu.cam.ac.uk){.blockquote} - [github](https://github.com/luka-kovacevic){.blockquote} - [orcid](https://orcid.org/0009-0008-5869-4822){.blockquote}
+[email](mailto:luka-kovacevic@mrc-bsu.cam.ac.uk){.blockquote} - [github](https://github.com/luka-kovacevic){.blockquote} - [scholar](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao){.blockquote}
 
 
 :::
