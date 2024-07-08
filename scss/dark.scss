@@ -1,0 +1,89 @@
+/*-- scss:defaults --*/
+
+$body-bg:                                 #1a1a1c !default;
+$body-color:                              #ffffff !default;
+$headings-color:                          $body-color !default;
+$code-block-bg:                           lighten($body-bg, 10%) !default;
+$navbar-bg:                               $body-bg !default;
+
+$custom-purple-color: #f43c5c !default;
+$light-purple-color: lighten($custom-purple-color, 5%);
+
+$link-color:                              $light-purple-color; // lighten($body-color, 30%) !default;
+$link-shade-percentage:                   0% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+
+$code-color:                              darken($body-color, 10%) !default;
+$code-bg:                                 lighten($body-bg, 10%) !default;
+
+$card-border-color:                       $body-color !default;
+$form-select-border-color:                $body-color !default;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+// $headings-font-family:                    "Lora", serif !default;
+
+/*-- scss:rules --*/
+
+code {
+    color: $custom-purple-color !important; /* Example: Change to your desired text color */
+    background-color: $code-block-bg !important; /* Example: Change to your desired background color */
+    padding: 0.2em 0.4em; /* Add some padding */
+    border-radius: 0.2em; /* Optional: Add rounded corners */
+    font-family: 'Courier New', Courier, monospace; /* Set a monospace font */
+    font-size: 0.95em; /* Adjust the font size if needed */
+  }
+
+.blockquote {
+    font-family: monospace;
+    margin-bottom: 0;
+    color: $body-color !important;
+}
+
+.card-footer {
+    color: lighten($body-bg, 30%);
+    background-color: lighten($body-bg, 2%);
+}
+
+.navbar-brand > img {
+    padding: 20px 20px;
+    background: url("images/logo-dark.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.fa-solid {
+    color: #9ea1a8;
+}
+
+.dark-mode { display: block; }
+.light-mode { display: none; }
+
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    /* Keep the color the same on hover */
+    color: $link-color; 
+    text-decoration: underline !important;
+}
+
+/* Navbar link styles */
+.navbar a {
+    color: $body-color; /* Default color for navbar links */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: $link-hover-color;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+/* Active navbar link */
+.navbar a.active {
+    color: $link-hover-color !important; /* Active color for navbar links */
+    font-weight: bold; /* Make active link bold */
+}

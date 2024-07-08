@@ -1,0 +1,143 @@
+/*-- scss:defaults --*/
+
+$body-bg:                                 #ffffff  !default;
+$body-color:                              #1a1a1c !default;
+$headings-color:                          $body-color !default;
+$code-block-bg:                           darken($body-bg, 3%) !default;
+$navbar-bg:                               $body-bg !default;
+
+// custom colors # TODO: fix these colors
+$purple-color: #f43c5c !default;
+$light-purple-color: lighten($purple-color, 25%);
+$custom-purple-color: #b509ac !default;
+$custom-color: lighten($purple-color, 5%);
+$lighten-custom-purple-color: lighten($custom-purple-color, 1%);
+// $custom-green-color: #c93a20 !default;
+
+$global-theme-color: #{$custom-purple-color};
+$global-hover-color: #{$custom-purple-color};
+
+$link-color:                              $custom-purple-color; // lighten($body-color, 30%) !default;
+// $link-color:                              $custom-green-color; // lighten($body-color, 30%) !default;
+$link-shade-percentage:                   30% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+
+$code-color:                              $custom-purple-color !default;
+$code-bg:                                 lighten($custom-purple-color, 60%) !default;
+
+$card-border-color:                       $body-color !default;
+$form-select-border-color:                $body-color !default;
+
+$custom-font-weight:                      300 !default;
+
+// $grid-body-width: 1000px !default;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+// $headings-font-family:                    "Lora", serif !default;
+
+// Import the Inter font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600&display=swap');
+
+// Set the Inter font for the body and other elements
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: $custom-font-weight;
+  font-size: 0.9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+halt {
+    font-family: 'Inter', sans-serif;
+    font-weight: $custom-font-weight !important;
+}
+
+p, a, li {
+  font-family: 'Inter', sans-serif;
+  font-weight: $custom-font-weight;
+  font-size: 0.9rem;
+}
+
+.blockquote {
+    font-family: monospace;
+    font-weight: $custom-font-weight;
+    color: $body-color !important;
+    margin: 0 !important; /* Remove any default margins */
+    padding: 0 !important; /* Remove any default padding */
+}
+
+code {
+    padding: 0.4em 0.4em; /* Add some padding */
+    border-radius: 0.2em; /* Optional: Add rounded corners */
+    font-family: 'Courier New', Courier, monospace; /* Set a monospace font */
+    font-size: 0.95em; /* Adjust the font size if needed */
+  }
+
+/*-- scss:rules --*/
+
+// p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+//     color: var(--global-text-color);
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+// }
+
+.card-footer {
+    color: darken($body-bg, 30%);
+    background-color: darken($body-bg, 2%);
+}
+
+.navbar-brand > img {
+    max-height: 40px;
+}
+
+.fa-solid {
+    color: #9ea1a8;
+}
+
+.light-mode { display: block; }
+.dark-mode { display: none; }
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    /* Keep the color the same on hover */
+    color: $link-color; 
+    text-decoration: underline !important;
+}
+
+/* Navbar link styles */
+.navbar a {
+    color: $body-color; /* Default color for navbar links */
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: $custom-font-weight;
+}
+
+.navbar a:hover {
+    color: $link-hover-color;
+    text-decoration: none !important;
+    font-weight: normal;
+}
+
+/* Active navbar link */
+.navbar a.active {
+    color: $lighten-custom-purple-color !important; /* Active color for navbar links */
+    font-weight: bold; /* Make active link bold */
+}
+
+a::after {
+    display: none;
+  }
+
+.block1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quarto-pdf-footer {
+    font-size: 10pt;
+}
