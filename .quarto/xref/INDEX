@@ -43,5 +43,8 @@
   },
   "project/benchmarking/index.qmd": {
     "index.html": "923d8986"
+  },
+  "index-old-latest.qmd": {
+    "index-old-latest.html": "817c95d4"
   }
 }

@@ -2,11 +2,11 @@
 layout: about
 title: <b>Luka</b> <halt> Kovačević <halt>
 # subtitle: <em>Working on machine learning for health.</em>  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-image: profile.jpg
-about:
-  template: solana
-  image-shape: rounded
-  image-width: 15.5em
+# image: profile.jpg
+# about:
+#   template: solana
+#   image-shape: rounded
+#   image-width: 15.5em
   # links:
   #   - icon: twitter
   #     text: Twitter
@@ -28,14 +28,11 @@ link-external-icon: false
 }
 </style>
 
-<!-- ::: {layout-ncol=2}
+::: {layout-ncol=2}
 
-::: {.column width=50%} -->
+::: {.column width=50%}
 
 <!-- previously file is called 'about.qmd' -->
-
-[email](mailto:luka-kovacevic@mrc-bsu.cam.ac.uk){.blockquote} - [github](https://github.com/luka-kovacevic){.blockquote} - [scholar](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao){.blockquote}
-
 
 Second-year PhD student in Biostatistics at [Clare Hall](https://www.clarehall.cam.ac.uk), and the [MRC Biostatistics Unit](https://www.mrc-bsu.cam.ac.uk) under the supervision of [Professor John Whittaker](https://www.c2d3.cam.ac.uk/directory/29341/professor-john-whittaker) and [Professor Sach Mukherjee](https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/mukherjee/curriculum-vitae/). The focus of my research is causal machine learning methods for single-cell genomics. More generally, I'm interested in developing methods for prediction-under-intervention using tools from causality, Bayesian statistics, and machine learning. 
 
@@ -48,15 +45,16 @@ Second-year PhD student in Biostatistics at [Clare Hall](https://www.clarehall.c
 + Counterfactual Prediction 
 + Bayesian Inference
 + Probabilistic Modelling
-
-
 <!-- + Offline Policy Learning -->
-<!-- 
+
 :::
 
 ::: {.column width=30%}
 
-![](profile.jpg) -->
+![](profile.jpg)
+
+
+[email](mailto:luka-kovacevic@mrc-bsu.cam.ac.uk){.blockquote} - [github](https://github.com/luka-kovacevic){.blockquote} - [scholar](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao){.blockquote}
 
 <!-- [PhD Student]{.blockquote} -->
 
@@ -64,6 +62,8 @@ Second-year PhD student in Biostatistics at [Clare Hall](https://www.clarehall.c
 
 <!-- [University of Cambridge]{.blockquote} -->
 
-<!-- :::
+:::
 
-::: -->
+:::
+
+

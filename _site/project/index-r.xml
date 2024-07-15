@@ -10,7 +10,7 @@
 <atom:link href="https://www.luka-kovacevic.com/project/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>A data science and machine learning blog with the tidyverse at its {{&lt; fa regular heart &gt;}}</description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Sat, 28 Jul 2018 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 28 Jul 2018 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Can Ravens Forecast?</title>
   <dc:creator>Luka Kovačević</dc:creator>
@@ -926,7 +926,7 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>time series</category>
   <category>forecast</category>
   <guid>https://www.luka-kovacevic.com/project/benchmarking/</guid>
-  <pubDate>Sat, 28 Jul 2018 23:00:00 GMT</pubDate>
+  <pubDate>Sat, 28 Jul 2018 22:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
