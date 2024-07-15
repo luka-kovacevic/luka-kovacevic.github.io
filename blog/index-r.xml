@@ -10,7 +10,7 @@
 <atom:link href="https://www.luka-kovacevic.com/blog/index-r.xml" rel="self" type="application/rss+xml"/>
 <description>A data science and machine learning blog with the tidyverse at its {{&lt; fa regular heart &gt;}}</description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Sun, 22 Jan 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 21 Jan 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Usedthese</title>
   <dc:creator>Carl Goodwin</dc:creator>
@@ -50,7 +50,7 @@
   <category>quarto</category>
   <category>package</category>
   <guid>https://www.luka-kovacevic.com/blog/usedthese/</guid>
-  <pubDate>Sun, 22 Jan 2023 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 21 Jan 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Night Mode</title>
@@ -177,7 +177,7 @@ font-style: inherit;">;</span></span>
   <category>website</category>
   <category>quarto</category>
   <guid>https://www.luka-kovacevic.com/blog/dark/</guid>
-  <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 21 Nov 2022 23:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/dark/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -1198,7 +1198,7 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>R</category>
   <category>special effects</category>
   <guid>https://www.luka-kovacevic.com/blog/tail/</guid>
-  <pubDate>Mon, 25 Apr 2022 23:00:00 GMT</pubDate>
+  <pubDate>Mon, 25 Apr 2022 22:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/tail/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -1268,7 +1268,7 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>hugo</category>
   <category>blogdown</category>
   <guid>https://www.luka-kovacevic.com/blog/renovate/</guid>
-  <pubDate>Fri, 08 Apr 2022 23:00:00 GMT</pubDate>
+  <pubDate>Fri, 08 Apr 2022 22:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/renovate/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -1337,7 +1337,7 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>hugo</category>
   <category>blogdown</category>
   <guid>https://www.luka-kovacevic.com/blog/plunge/</guid>
-  <pubDate>Sat, 25 Jul 2020 23:00:00 GMT</pubDate>
+  <pubDate>Sat, 25 Jul 2020 22:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/plunge/feature.gif" medium="image" type="image/gif"/>
 </item>
 </channel>

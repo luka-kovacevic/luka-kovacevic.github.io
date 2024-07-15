@@ -60,14 +60,14 @@
     "href": "index.html",
     "title": "Luka  Kovačević ",
     "section": "",
-    "text": "Second-year PhD student in Biostatistics at Clare Hall, and the MRC Biostatistics Unit under the supervision of Professor John Whittaker and Professor Sach Mukherjee. The focus of my research is causal machine learning methods for single-cell genomics. More generally, I’m interested in developing methods for prediction-under-intervention using tools from causality, Bayesian statistics, and machine learning.\n Prior to starting my PhD, I worked on adaptive clinical trial methodology at the MRC BSU. I also worked on uncertainty quantification for COVID-19 forecasting at the S3RI in collaboration with PHE and Dstl. I obtained an MSc in Statistical Science from the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.\n\n\nResearch Interests\n\nCausality\nCounterfactual Prediction\nBayesian Inference\nProbabilistic Modelling \n\n\n\n\n\n\n\n\nemail - github - scholar"
+    "text": "email - github - scholar\nSecond-year PhD student in Biostatistics at Clare Hall, and the MRC Biostatistics Unit under the supervision of Professor John Whittaker and Professor Sach Mukherjee. The focus of my research is causal machine learning methods for single-cell genomics. More generally, I’m interested in developing methods for prediction-under-intervention using tools from causality, Bayesian statistics, and machine learning.\n Prior to starting my PhD, I worked on adaptive clinical trial methodology at the MRC BSU. I also worked on uncertainty quantification for COVID-19 forecasting at the S3RI in collaboration with PHE and Dstl. I obtained an MSc in Statistical Science from the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.\n\n\nResearch Interests\n\nCausality\nCounterfactual Prediction\nBayesian Inference\nProbabilistic Modelling"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "index-old.html",
@@ -77,11 +77,18 @@
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 23, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 20, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "index-old-latest.html",
+    "href": "index-old-latest.html",
+    "title": "Luka  Kovačević ",
+    "section": "",
+    "text": "Second-year PhD student in Biostatistics at Clare Hall, and the MRC Biostatistics Unit under the supervision of Professor John Whittaker and Professor Sach Mukherjee. The focus of my research is causal machine learning methods for single-cell genomics. More generally, I’m interested in developing methods for prediction-under-intervention using tools from causality, Bayesian statistics, and machine learning.\n Prior to starting my PhD, I worked on adaptive clinical trial methodology at the MRC BSU. I also worked on uncertainty quantification for COVID-19 forecasting at the S3RI in collaboration with PHE and Dstl. I obtained an MSc in Statistical Science from the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.\n\n\nResearch Interests\n\nCausality\nCounterfactual Prediction\nBayesian Inference\nProbabilistic Modelling \n\n\n\n\n\nemail - github - scholar"
   },
   {
     "objectID": "blog/index.html",
