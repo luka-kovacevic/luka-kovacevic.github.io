@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -112,27 +111,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body content">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title"><b>Luka</b> <halt> Kovačević <halt></halt></halt></h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
-</header>
-
-
+</header> 
+      <div class="about-contents"><main class="content" id="quarto-document-content">
 <style>
 .column {
     width: 10%; /* Adjust the width as needed */
@@ -140,39 +129,39 @@ ul.task-list li input[type="checkbox"] {
     margin-right: 5%; /* Adjust the spacing between columns */
 }
 </style>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="column quarto-layout-cell" style="flex-basis: 62.5%;justify-content: flex-start;">
+<!-- ::: {layout-ncol=2}
+::: {.column width=50%} -->
 <!-- previously file is called 'about.qmd' -->
+<p><a href="mailto:luka-kovacevic@mrc-bsu.cam.ac.uk" class="blockquote">email</a> - <a href="https://github.com/luka-kovacevic" class="blockquote">github</a> - <a href="https://scholar.google.com/citations?user=JrrCIW4AAAAJ&amp;hl=en&amp;oi=ao" class="blockquote">scholar</a></p>
 <p>Second-year PhD student in Biostatistics at <a href="https://www.clarehall.cam.ac.uk">Clare Hall</a>, and the <a href="https://www.mrc-bsu.cam.ac.uk">MRC Biostatistics Unit</a> under the supervision of <a href="https://www.c2d3.cam.ac.uk/directory/29341/professor-john-whittaker">Professor John Whittaker</a> and <a href="https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/mukherjee/curriculum-vitae/">Professor Sach Mukherjee</a>. The focus of my research is causal machine learning methods for single-cell genomics. More generally, I’m interested in developing methods for prediction-under-intervention using tools from causality, Bayesian statistics, and machine learning.</p>
 <p><br> Prior to starting my PhD, I worked on adaptive clinical trial methodology at the MRC BSU. I also worked on uncertainty quantification for COVID-19 forecasting at the <a href="https://www.southampton.ac.uk/research/institutes-centres/statistical-sciences-research-institute-s3ri">S3RI</a> in collaboration with PHE and Dstl. I obtained an MSc in Statistical Science from the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.</p>
 <p><br></p>
 <section id="research-interests" class="level4">
-<h4 class="anchored" data-anchor-id="research-interests">Research Interests</h4>
+<h4 data-anchor-id="research-interests">Research Interests</h4>
 <ul>
 <li>Causality</li>
 <li>Counterfactual Prediction</li>
 <li>Bayesian Inference</li>
-<li>Probabilistic Modelling <!-- + Offline Policy Learning --></li>
+<li>Probabilistic Modelling <!-- + Offline Policy Learning --> <!-- 
+:::
+::: {.column width=30%}
+![](profile.jpg) --></li>
 </ul>
-</section>
-</div>
-<div class="column quarto-layout-cell" style="flex-basis: 37.5%;justify-content: center;">
-<p><img src="profile.jpg" class="img-fluid"></p>
 <!-- [PhD Student]{.blockquote} -->
 <!-- [MRC Biostatistics Unit]{.blockquote} -->
 <!-- [University of Cambridge]{.blockquote} -->
-<p><a href="mailto:luka-kovacevic@mrc-bsu.cam.ac.uk" class="blockquote">email</a> - <a href="https://github.com/luka-kovacevic" class="blockquote">github</a> - <a href="https://scholar.google.com/citations?user=JrrCIW4AAAAJ&amp;hl=en&amp;oi=ao" class="blockquote">scholar</a></p>
-</div>
-</div>
-</div>
+<!-- :::
+::: -->
 
 
-
-</main> <!-- /main -->
+</section>
+</main></div>
+    </div>
+    <img src="profile.jpg" class="about-image
+  rounded " style="width: 15.5em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -337,13 +326,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
