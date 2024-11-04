@@ -9,8 +9,8 @@
 <link>https://www.luka-kovacevic.com/blog/</link>
 <atom:link href="https://www.luka-kovacevic.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A data science and machine learning blog with the tidyverse at its {{&lt; fa regular heart &gt;}}</description>
-<generator>quarto-1.4.554</generator>
-<lastBuildDate>Sat, 21 Jan 2023 23:00:00 GMT</lastBuildDate>
+<generator>quarto-1.6.32</generator>
+<lastBuildDate>Sun, 22 Jan 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Usedthese</title>
   <dc:creator>Carl Goodwin</dc:creator>
@@ -50,7 +50,7 @@
   <category>quarto</category>
   <category>package</category>
   <guid>https://www.luka-kovacevic.com/blog/usedthese/</guid>
-  <pubDate>Sat, 21 Jan 2023 23:00:00 GMT</pubDate>
+  <pubDate>Sun, 22 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Night Mode</title>
@@ -72,6 +72,7 @@
 background-color: null;
 font-style: inherit;">.dark-mode</span> { <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">display</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">block</span><span class="op" style="color: #5E5E5E;
@@ -81,6 +82,7 @@ font-style: inherit;">;</span> }</span>
 background-color: null;
 font-style: inherit;">.light-mode</span> { <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">display</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">none</span><span class="op" style="color: #5E5E5E;
@@ -91,6 +93,7 @@ font-style: inherit;">;</span> }</span></code></pre></div>
 background-color: null;
 font-style: inherit;">.light-mode</span> { <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">display</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">block</span><span class="op" style="color: #5E5E5E;
@@ -100,6 +103,7 @@ font-style: inherit;">;</span> }</span>
 background-color: null;
 font-style: inherit;">.dark-mode</span> { <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">display</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">none</span><span class="op" style="color: #5E5E5E;
@@ -111,6 +115,7 @@ background-color: null;
 font-style: inherit;">.navbar-logo</span> {</span>
 <span id="cb3-2">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">filter</span>: <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">brightness(</span><span class="dv" style="color: #AD0000;
@@ -122,6 +127,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb3-3">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">max-height</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">30</span><span class="dt" style="color: #AD0000;
@@ -136,6 +142,7 @@ background-color: null;
 font-style: inherit;">.navbar-logo</span> {</span>
 <span id="cb3-7">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">filter</span>: <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">brightness(</span><span class="dv" style="color: #AD0000;
@@ -149,6 +156,7 @@ background-color: null;
 font-style: inherit;">;</span></span>
 <span id="cb3-8">    <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">max-height</span>: <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">30</span><span class="dt" style="color: #AD0000;
@@ -177,148 +185,80 @@ font-style: inherit;">;</span></span>
   <category>website</category>
   <category>quarto</category>
   <guid>https://www.luka-kovacevic.com/blog/dark/</guid>
-  <pubDate>Mon, 21 Nov 2022 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/dark/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
   <title>Painting Tails</title>
   <dc:creator>Carl Goodwin</dc:creator>
   <link>https://www.luka-kovacevic.com/blog/tail/</link>
-  <description><![CDATA[ <p><img src="https://www.luka-kovacevic.com/blog/tail/feature.gif" class="img-fluid"></p>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.luka-kovacevic.com/blog/tail/feature.gif" class="img-fluid"></p>
 <p>There are techniques for <a href="https://stackoverflow.com/questions/12429333/how-to-shade-a-region-under-a-curve-using-ggplot2">painting a region under a curve</a>. But the experimental <a href="https://ggfx.data-imaginist.com">ggfx</a> package offers an interesting alternative solution based on the blending modes familiar to users of Photoshop.</p>
 <div class="cell">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw" style="color: #003B4F;
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">library</span>(conflicted)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://conflicted.r-lib.org/">conflicted</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">conflict_prefer_all</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
+font-style: inherit;">"dplyr"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">quiet =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
+font-style: inherit;">TRUE</span>)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://conflicted.r-lib.org/reference/conflict_prefer.html">conflict_prefer_all</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"dplyr"</span>, quiet <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
-background-color: null;
-font-style: inherit;">TRUE</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://conflicted.r-lib.org/reference/conflict_prefer.html">conflict_prefer</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">conflict_prefer</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"as_date"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"lubridate"</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">"lubridate"</span>)</span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
+font-style: inherit;">library</span>(scales)</span>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">library</span>(ggfx)</span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
+font-style: inherit;">library</span>(patchwork)</span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://scales.r-lib.org">scales</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">library</span>(wesanderson)</span>
+<span id="cb1-9"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
+font-style: inherit;">library</span>(clock)</span>
+<span id="cb1-10"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://ggfx.data-imaginist.com">ggfx</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://patchwork.data-imaginist.com">patchwork</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/karthik/wesanderson">wesanderson</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://clock.r-lib.org">clock</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;"><a href="https://github.com/business-science/tidyquant">tidyquant</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">library</span>(tidyquant)</span></code></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu" style="color: #4758AB;
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/theme_get.html">theme_set</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">theme_set</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_bw</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">theme_bw</span>())</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">(cols <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/pkg/wesanderson/man/wes_palette.html">wes_palette</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">wes_palette</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Royal1"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">"Royal1"</span>))</span></code></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/theme-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figure class="figure">
+<p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/theme-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -326,280 +266,185 @@ font-style: inherit;">)</span></span></code></pre></div>
 <p>The advantage here is that the tail-painting aesthetic needs no information about the shape of the curve; only the limits on the x-axis.</p>
 <p>The left plot shows the raw components without blending. The right plot is only retaining the red where there is a layer below.</p>
 <div class="cell">
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">p0 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">tibble</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>outcome <span class="op" style="color: #5E5E5E;
+font-style: inherit;">outcome =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">rnorm</span>(<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">10000</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">20</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10000</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">20</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">2</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">outcome</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">aes</span>(outcome)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>labels <span class="op" style="color: #5E5E5E;
+font-style: inherit;">labels =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">label_percent</span>())</span>
+<span id="cb3-4"></span>
+<span id="cb3-5">p1 <span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;"><a href="https://scales.r-lib.org/reference/label_percent.html">label_percent</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">&lt;-</span> p0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-6">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_density.html">geom_density</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">geom_density</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>adjust <span class="op" style="color: #5E5E5E;
+font-style: inherit;">adjust =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">2</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">2</span>, fill <span class="op" style="color: #5E5E5E;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">3</span>]) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-7">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"rect"</span>,</span>
-<span>    xmin <span class="op" style="color: #5E5E5E;
+<span id="cb3-8">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">xmin =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">15</span>, xmax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">xmax =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">18</span>, ymin <span class="op" style="color: #5E5E5E;
+font-style: inherit;">18</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymin =</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span><span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">Inf</span>, ymax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">Inf</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">ymax =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">Inf</span>,</span>
-<span>    fill <span class="op" style="color: #5E5E5E;
+<span id="cb3-9">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">2</span>]</span>
+<span id="cb3-10">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-11">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"Without Blending"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"Without Blending"</span>, y <span class="op" style="color: #5E5E5E;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"Density"</span>)</span>
+<span id="cb3-12"></span>
+<span id="cb3-13">p2 <span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">"Density"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p2</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">&lt;-</span> p0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-14">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">as_reference</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">as_reference</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">geom_density</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_density.html">geom_density</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">adjust =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">(</span>adjust <span class="op" style="color: #5E5E5E;
+font-style: inherit;">2</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">2</span>, fill <span class="op" style="color: #5E5E5E;
+font-style: inherit;">3</span>]), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">id =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, id <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"density"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"density"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-15">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">with_blend</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">with_blend</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"rect"</span>,</span>
-<span>    xmin <span class="op" style="color: #5E5E5E;
+<span id="cb3-16">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">xmin =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">15</span>, xmax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">15</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">xmax =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">18</span>, ymin <span class="op" style="color: #5E5E5E;
+font-style: inherit;">18</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymin =</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span><span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">Inf</span>, ymax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">Inf</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">ymax =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">Inf</span>,</span>
-<span>    fill <span class="op" style="color: #5E5E5E;
+<span id="cb3-17">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">2</span>]</span>
+<span id="cb3-18">  ), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">bg_layer =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">"density"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">]</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
+font-style: inherit;">blend_type =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">)</span>, bg_layer <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"density"</span>, blend_type <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"atop"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"atop"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb3-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"With Blending"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"With Blending"</span>, y <span class="op" style="color: #5E5E5E;
+font-style: inherit;">y =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">NULL</span>)</span>
+<span id="cb3-20"></span>
+<span id="cb3-21">p1 <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">NULL</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p2</span></span></code></pre></div>
+font-style: inherit;">+</span> p2</span></code></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/blend-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figure class="figure">
+<p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/blend-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -621,15 +466,11 @@ Note
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">tickrs</span> <span class="op" style="color: #5E5E5E;
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">tickrs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"AAPL"</span>, <span class="st" style="color: #20794D;
 background-color: null;
@@ -643,550 +484,347 @@ font-style: inherit;">"META"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"GOOG"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"MSFT"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"MSFT"</span>)</span>
+<span id="cb4-2"></span>
+<span id="cb4-3">p0 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">tq_get</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">tq_get</span>(tickrs, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
+font-style: inherit;">get =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">tickrs</span>, get <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"stock.prices"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">from =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"stock.prices"</span>, from <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"2022-01-01"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"2022-01-01"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-4">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">filter</span>(<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">close</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">is.na</span>(close)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://dplyr.tidyverse.org/reference/reframe.html">reframe</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">reframe</span>(</span>
+<span id="cb4-6">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span></span>
-<span>    close <span class="op" style="color: #5E5E5E;
+font-style: inherit;">close =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">quantile</span>(close, <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">close</span>, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">c</span>(<span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.25</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">0.75</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">0.75</span>)),</span>
+<span id="cb4-7">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">quantile =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>    quantile <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"lower"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"median"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"upper"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"upper"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">factor</span>(),</span>
+<span id="cb4-8">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>    .by <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">date</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">.by =</span> date</span>
+<span id="cb4-9">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-10">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://tidyr.tidyverse.org/reference/pivot_wider.html">pivot_wider</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">pivot_wider</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>names_from <span class="op" style="color: #5E5E5E;
+font-style: inherit;">names_from =</span> quantile, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">quantile</span>, values_from <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">close</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">values_from =</span> close) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-11">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">date</span>, <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">median</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">aes</span>(date, median)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-12">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"text"</span>,</span>
-<span>    x <span class="op" style="color: #5E5E5E;
+<span id="cb4-13">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">x =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymd</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">"2022-03-16"</span>), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"2022-03-16"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, y <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+font-style: inherit;">y =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">100</span>,</span>
-<span>    label <span class="op" style="color: #5E5E5E;
+<span id="cb4-14">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">label =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Helpful\nAnnotation"</span>, colour <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"Helpful</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Annotation"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"black"</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+<span id="cb4-15">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-16">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>limits <span class="op" style="color: #5E5E5E;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>, <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">NA</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">NA</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-17">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>x <span class="op" style="color: #5E5E5E;
+font-style: inherit;">x =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">NULL</span>)</span>
+<span id="cb4-18"></span>
+<span id="cb4-19">p1 <span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">NULL</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">&lt;-</span> p0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-20">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_ribbon.html">geom_ribbon</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">geom_ribbon</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymin =</span> lower, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>ymin <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymax =</span> upper), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">lower</span>, ymax <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">upper</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, fill <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">1</span>]) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-21">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>colour <span class="op" style="color: #5E5E5E;
+font-style: inherit;">colour =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">3</span>]) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-22">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">annotate</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"rect"</span>,</span>
-<span>    xmin <span class="op" style="color: #5E5E5E;
+<span id="cb4-23">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">xmin =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymd</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">"2022-03-01"</span>), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"2022-03-01"</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">xmax =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">)</span>, xmax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymd</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">"2022-03-31"</span>),</span>
+<span id="cb4-24">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"2022-03-31"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>    ymin <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymin =</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span><span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">Inf</span>, ymax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">Inf</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">ymax =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">Inf</span>, </span>
-<span>    fill <span class="op" style="color: #5E5E5E;
+<span id="cb4-25">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">4</span>], <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">]</span>, colour <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>, linetype <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"dashed"</span></span>
-<span>  <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+<span id="cb4-26">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-27">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"Without Blending"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"Without Blending"</span>, y <span class="op" style="color: #5E5E5E;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"Closing Price"</span>)</span>
+<span id="cb4-28"></span>
+<span id="cb4-29">p2 <span class="ot" style="color: #003B4F;
 background-color: null;
-font-style: inherit;">"Closing Price"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p2</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p0</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">&lt;-</span> p0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-30">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">as_reference</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">as_reference</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">geom_ribbon</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_ribbon.html">geom_ribbon</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span><span class="fu" style="color: #4758AB;
+font-style: inherit;">ymin =</span> lower, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymax =</span> upper), </span>
+<span id="cb4-31">                           <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>ymin <span class="op" style="color: #5E5E5E;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">1</span>]), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">lower</span>, ymax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">id =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">upper</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, </span>
-<span>                           fill <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>, id <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"ribbon"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">"ribbon"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-32">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">with_blend</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">with_blend</span>(</span>
+<span id="cb4-33">    <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">(</span></span>
-<span>    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span></span>
-<span>      <span class="st" style="color: #20794D;
+font-style: inherit;">annotate</span>(</span>
+<span id="cb4-34">      <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"rect"</span>,</span>
-<span>      xmin <span class="op" style="color: #5E5E5E;
+<span id="cb4-35">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">xmin =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymd</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
+font-style: inherit;">"2022-03-01"</span>), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"2022-03-01"</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">xmax =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">)</span>, xmax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymd</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+font-style: inherit;">"2022-03-31"</span>),</span>
+<span id="cb4-36">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"><a href="https://lubridate.tidyverse.org/reference/ymd.html">ymd</a></span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">(</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"2022-03-31"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>      ymin <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">ymin =</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span><span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">Inf</span>, ymax <span class="op" style="color: #5E5E5E;
+font-style: inherit;">Inf</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">ymax =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">Inf</span>, </span>
-<span>      fill <span class="op" style="color: #5E5E5E;
+<span id="cb4-37">      <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
+font-style: inherit;">fill =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">4</span>], <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
+font-style: inherit;">colour =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">]</span>, colour <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>, linetype <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"dashed"</span></span>
-<span>      <span class="op" style="color: #5E5E5E;
+<span id="cb4-38">      ),</span>
+<span id="cb4-39">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">)</span>,</span>
-<span>    bg_layer <span class="op" style="color: #5E5E5E;
+font-style: inherit;">bg_layer =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"ribbon"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"ribbon"</span>, blend_type <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">blend_type =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"atop"</span></span>
-<span>    <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+<span id="cb4-40">    ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-41">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>colour <span class="op" style="color: #5E5E5E;
+font-style: inherit;">colour =</span> cols[<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">=</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">cols</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">[</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">]</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">3</span>]) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-42">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+font-style: inherit;">"With Blending"</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">"With Blending"</span>, y <span class="op" style="color: #5E5E5E;
+font-style: inherit;">y =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">=</span> <span class="cn" style="color: #8f5902;
+font-style: inherit;">NULL</span>)</span>
+<span id="cb4-43"></span>
+<span id="cb4-44">p1 <span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">NULL</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span>
-<span></span>
-<span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p1</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span> <span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">p2</span> <span class="op" style="color: #5E5E5E;
+font-style: inherit;">+</span> p2 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span>  <span class="fu" style="color: #4758AB;
+<span id="cb4-45">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;"><a href="https://patchwork.data-imaginist.com/reference/plot_annotation.html">plot_annotation</a></span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">plot_annotation</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">(</span>title <span class="op" style="color: #5E5E5E;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Median Price Bounded by Upper &amp; Lower Quartiles"</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">)</span></span></code></pre></div>
+font-style: inherit;">"Median Price Bounded by Upper &amp; Lower Quartiles"</span>)</span></code></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/tickers-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figure class="figure">
+<p><img src="https://www.luka-kovacevic.com/blog/tail/index_files/figure-html/tickers-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -1198,23 +836,33 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>R</category>
   <category>special effects</category>
   <guid>https://www.luka-kovacevic.com/blog/tail/</guid>
-  <pubDate>Mon, 25 Apr 2022 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 25 Apr 2022 23:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/tail/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
   <title>A Fresh Lick of Paint</title>
   <dc:creator>Carl Goodwin</dc:creator>
   <link>https://www.luka-kovacevic.com/blog/renovate/</link>
-  <description><![CDATA[ <p><img src="https://www.luka-kovacevic.com/blog/renovate/feature.gif" class="img-fluid"></p>
-<section id="motivation" class="level2"><h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.luka-kovacevic.com/blog/renovate/feature.gif" class="img-fluid"></p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
 <p>A couple of years ago I <a href="../../blog/plunge">moved house</a> from Wordpress to <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>. It’s proved to be a much less stressful life and I plan to stay. <a href="https://academic-demo.netlify.app">Hugo Academic</a> served me well, but sometimes you just need a fresh coat of paint. I liked the look of <a href="https://hugo-apero-docs.netlify.app">Hugo Apéro</a>.</p>
 <p>Apéro feels simpler and has an elegant design with well-chosen themes and fonts.</p>
 <p>I like to add my own digital art to both the site and Rmarkdown projects, and Apéro gives me more flexibility here. GIF animations, for example, on my <a href="../../.">home page</a> and in my project and <a href="../../blog/">blog</a> lists just work.</p>
 <p>The dark mode I had with Academic would be a nice-to-have, but not essential.</p>
-</section><section id="plan-of-attack" class="level2"><h2 class="anchored" data-anchor-id="plan-of-attack">Plan of Attack</h2>
+</section>
+<section id="plan-of-attack" class="level2">
+<h2 class="anchored" data-anchor-id="plan-of-attack">Plan of Attack</h2>
 <p>The upgrade approach I took was to create a brand new blogdown project in RStudio with the Apéro theme and then copy over and re-knit my projects one by one. This worked well because every project needed at least one change as a direct consequence of the move and re-opening each project also prompted other beneficial updates.</p>
 <p>I focused first on manual deployment, i.e.&nbsp;dragging the Public folder to Netlify, rather than going straight to continuous deployment via Github. Doing it this way would narrow the potential cause of any problems when doing the latter. I also initially deployed to one of Netlify’s auto-generated site names, so my live manually-deployed Academic blog remained unaffected whilst preparing the new site.</p>
-</section><section id="set-up" class="level2"><h2 class="anchored" data-anchor-id="set-up">Set-up</h2>
+</section>
+<section id="set-up" class="level2">
+<h2 class="anchored" data-anchor-id="set-up">Set-up</h2>
 <p>There’s a very helpful <a href="https://hugo-apero-docs.netlify.app/start/">get started</a> authored by the theme owner Alison Hill, so I’ll comment here only on the personal touches I wanted to add.</p>
 <p>In Hugo Academic, each project’s (or post’s) feature image rendered automatically in both the project list page and in the individual project. In Apéro, I needed to add <code>![](pathname)</code> to the Rmarkdown file to render the image in an individual project or post. I actually prefer this approach because it means the image then also appears when re-publishing to a blog aggregator which frustratingly was not the case with Academic.</p>
 <p>Given the taxonomy differences, I created a <code>static/_redirects</code> file so that bookmarks for, say, <code>category/r</code> or <code>tag/statistical-inference</code> (under Academic) would go to <code>categories/r</code> or <code>tags/statistical-inference</code>.</p>
@@ -1249,10 +897,15 @@ font-style: inherit;">)</span></span></code></pre></div>
 {{ end }}
 &lt;/section&gt;</code></pre>
 <p><a href="https://help.formspree.io/hc/en-us/articles/360056076314-Phasing-out-legacy-forms-email-URLs-">Formspree is removing support for email-based forms</a>, so my <code>contact.md</code> required a randomly-generated <code>formspree_form_id:</code> rather than an email address.</p>
-</section><section id="deployment" class="level2"><h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
-<section id="manual" class="level3"><h3 class="anchored" data-anchor-id="manual">Manual</h3>
+</section>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
+<section id="manual" class="level3">
+<h3 class="anchored" data-anchor-id="manual">Manual</h3>
 <p>Initially a few things did not render correctly, e.g.&nbsp;syntax highlighting, which it turned out required renaming the <code>index.Rmd</code> files to <code>index.Rmarkdown</code>. And when the manual deployment to Netlify got stuck uploading, I realised I also needed to change the <code>.Rprofile</code> to <code>blogdown.method = 'markdown'</code> rather than <code>blogdown.method = 'html'</code>.</p>
-</section><section id="continuous" class="level3"><h3 class="anchored" data-anchor-id="continuous">Continuous</h3>
+</section>
+<section id="continuous" class="level3">
+<h3 class="anchored" data-anchor-id="continuous">Continuous</h3>
 <p>Once the manual deployment to Netlify was working, I then moved on to continuous deployment via Github. I wanted to switch the commenting engine from Disqus to <a href="https://utteranc.es">utterance.es</a> and, as is often the case, wanting one thing results in the need for a bunch of other things; in this case, a public repo on Github. <a href="https://github.com/apps/utterances">Installing</a> the latter provides a more elegant fit with the Apéro design and has some nice advantages.</p>
 <p>And because I wanted to deploy a <em>pre-existing</em> RStudio project to Github, rather than following the usual Github-first practice, I found this <a href="https://happygitwithr.com/existing-github-first.html">guidance</a> helpful.</p>
 <p>I played around a bit with the <code>.gitignore</code> file and found I could exclude quite a lot of stuff that Netlify would not need to do the Hugo build.</p>
@@ -1262,13 +915,16 @@ font-style: inherit;">)</span></span></code></pre></div>
 <p>Post-deployment there was initially an issue with the RSS feed showing only the summary. Adding a <code>layouts/_default/rss.xml</code> file using the <a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml">Hugo default</a> with <code>.Summary</code> changed to <code>.Content</code> fixed that.</p>
 
 
-</section></section> ]]></description>
+</section>
+</section>
+
+ ]]></description>
   <category>R</category>
   <category>website</category>
   <category>hugo</category>
   <category>blogdown</category>
   <guid>https://www.luka-kovacevic.com/blog/renovate/</guid>
-  <pubDate>Fri, 08 Apr 2022 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 08 Apr 2022 23:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/renovate/feature.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -1337,7 +993,7 @@ font-style: inherit;">)</span></span></code></pre></div>
   <category>hugo</category>
   <category>blogdown</category>
   <guid>https://www.luka-kovacevic.com/blog/plunge/</guid>
-  <pubDate>Sat, 25 Jul 2020 22:00:00 GMT</pubDate>
+  <pubDate>Sat, 25 Jul 2020 23:00:00 GMT</pubDate>
   <media:content url="https://www.luka-kovacevic.com/blog/plunge/feature.gif" medium="image" type="image/gif"/>
 </item>
 </channel>
