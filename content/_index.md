@@ -5,7 +5,7 @@
 title = "Luka Kovačević"
 +++
 
-## Luka's Site
+## Luka Kovačević
 
 I'm a third-year PhD student in Biostatistics at [Clare Hall](https://www.clarehall.cam.ac.uk), and the [MRC Biostatistics Unit](https://www.mrc-bsu.cam.ac.uk) under the supervision of [Professor John Whittaker](https://www.c2d3.cam.ac.uk/directory/29341/professor-john-whittaker) and [Professor Sach Mukherjee](https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/mukherjee/curriculum-vitae/), where I work on causal machine learning methods for genomics. My interests are in developing methods for predicting effects of interventions using tools from causality, Bayesian statistics, and machine learning.
 
@@ -15,6 +15,6 @@ In the past, I've worked on adaptive clinical trial methodology at the MRC BSU a
 
 --- 
 
-This space is where I write about statistics, travels, and books. I also sometimes write [code](https://github.com/luka-kovacevic) and [papers](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao).
+This space is where I put things I'm writing and thinking about. I also enjoy writing [code](https://github.com/luka-kovacevic) and [papers](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao).
 
 
