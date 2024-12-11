@@ -2,7 +2,8 @@
 # This title is used as the og:title on Hugo's internal
 # opengraph structured data template on the home page.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "Luka Kovačević"
+title = "About"
+omit_header_text = true
 +++
 
 ## Luka Kovačević
@@ -15,6 +16,6 @@ In the past, I've worked on adaptive clinical trial methodology at the MRC BSU a
 
 --- 
 
-This space is where I put things I'm writing and thinking about. I also enjoy writing [code](https://github.com/luka-kovacevic) and [papers](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao).
+This space is where I put things I'm reading, writing, and thinking about. I also enjoy writing [code](https://github.com/luka-kovacevic) and [papers](https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en&oi=ao).
 
 

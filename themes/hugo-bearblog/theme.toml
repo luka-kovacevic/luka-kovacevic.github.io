@@ -28,3 +28,6 @@ min_version = "v0.110.0"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  site_logo = "img/logo.svg"

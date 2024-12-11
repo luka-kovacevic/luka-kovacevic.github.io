@@ -6,7 +6,7 @@ baseURL = "https://luka-kovacevic.github.io"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = ""
+title = "Luka's site"
 author = "Luka Kovačević"
 copyright = "Copyright © 2024, Luka Kovačević."
 languageCode = "en-UK"
