@@ -11,10 +11,6 @@ theme = 'shibui'
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "GitHub"
     url = "https://github.com/luka-kovacevic"
     weight = 2
