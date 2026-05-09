@@ -1,0 +1,24 @@
+baseURL = 'https://luka-kovacevic.co/'
+languageCode = 'en-us'
+title = 'Luka Kovacevic'
+theme = 'shibui'
+
+[params]
+  author = "Luka Kovacevic"
+  email = "luka.1kovacevic@gmail.com"
+  comments = false
+  showreadingtime = false
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/luka-kovacevic"
+    weight = 2
+  [[menu.main]]
+    name = "Scholar"
+    url = "https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en"
+    weight = 3
