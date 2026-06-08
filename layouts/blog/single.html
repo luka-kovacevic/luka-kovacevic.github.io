@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+  <div class="post-meta">{{ partial "date.html" .Date }}</div>
+
+  {{/* Table of Contents — h2 headers only */}}
+  {{ $hasToC := .Params.toc | default true }}
+  {{ $h2s := findRE "<h2" .Content }}
+  {{ if and $hasToC (ge (len $h2s) 1) }}
+    <div class="toc-block">
+      <div class="toc-label">Contents</div>
+      <nav class="toc-content">
+        {{ .TableOfContents }}
+      </nav>
+    </div>
+  {{ end }}
+
+  {{ .Content }}
+
+  {{ if not .IsHome }}
+    <div class="terminal-nav">
+      <br>
+      <div class="back-nav">
+        {{ with .Parent }}
+          <a href="{{ .RelPermalink }}" class="back-link"><em>← Back</em></a>
+        {{ else }}
+          <a href="{{ "/" | relURL }}" class="back-link">← Back</a>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
