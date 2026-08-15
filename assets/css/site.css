@@ -1,0 +1,248 @@
+/* ── Typography ── */
+:root {
+  --font-family-mono: 'Lora', Georgia, serif;
+}
+
+header, footer {
+  font-family: monospace;
+}
+
+a {
+  margin-left: 0;
+}
+
+code, pre, pre code,
+p > code, li > code,
+h1 > code, h2 > code, h3 > code, h4 > code, h5 > code {
+  font-family: monospace;
+}
+
+.time-list li {
+  grid-template-columns: auto auto 1fr;
+}
+
+.list-sep {
+  color: var(--color-text-muted);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: calc(var(--spacing-base) * 2);
+}
+
+main > h1:first-child,
+main > h2:first-child,
+main > h3:first-child,
+main > h4:first-child,
+main > h5:first-child,
+main > h6:first-child {
+  margin-top: 0;
+}
+
+/* ── Dark mode ── */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg-l: 10%;
+    --color-border: rgba(255, 255, 255, 0.2);
+  }
+}
+
+[data-theme="dark"] {
+  --bg-l: 10%;
+  --color-border: rgba(255, 255, 255, 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --color-border: rgba(0, 0, 0, 0.15);
+  }
+}
+
+[data-theme="light"] {
+  --color-border: rgba(0, 0, 0, 0.15);
+}
+
+/* ── Dividers: uncomment to hide ── */
+.header-divider { display: none; }
+/* .terminal-nav { border-top: none; } */
+
+/* ── Nav bar ── */
+.path-nav {
+  font-size: 1.1em;
+}
+
+/* ── Blog post — rule-of-three font sizes: 1.6em / 1.15em / 1em ── */
+main h1 {
+  font-size: 1.6em;
+}
+
+body.home main h1 {
+  font-size: 1.1em;
+}
+
+main h2 {
+  font-size: 1.15em;
+}
+
+.post-subtitle {
+  font-size: 1.15em;
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin: 0.25em 0 0 0;
+}
+
+.post-meta {
+  font-size: 1em;
+  color: var(--color-text-muted);
+  margin: 0.5em 0 2em 0;
+}
+
+.toc-block {
+  border: 1px solid var(--color-border);
+  padding: 0.25em 0.6em;
+  margin: 0 0 2em 0;
+}
+
+.toc-label {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 0 0 0.2em 0;
+  border-bottom: none;
+}
+
+.toc-content ul {
+  margin-bottom: 0;
+}
+
+/* ── Theme toggle button ── */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  padding: 0 0.25em;
+  line-height: 1;
+}
+
+#theme-toggle:hover {
+  color: var(--color-text-primary);
+}
+
+/* ── Header layout ── */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* ── Footer layout ── */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-footer,
+.terminal-nav {
+  border-top: none;
+  padding-top: 0;
+  margin-top: var(--spacing-base);
+}
+
+.home-footer nav {
+  font-family: monospace;
+}
+
+.footer-copy {
+  border-top: none;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  color: var(--color-text-muted);
+  font-family: monospace;
+}
+
+.footer-copy a {
+  border-bottom: none;
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.footer-copy a:hover {
+  opacity: 1;
+  border-bottom: none;
+}
+
+/* ── Profile links (GitHub, Scholar) ── */
+.profile-links {
+  list-style: none;
+  padding-top: 2em;
+  margin: 0 0 var(--spacing-base) 0;
+  display: flex;
+  justify-content: left;
+  gap: 1em;
+}
+
+
+.profile-links a {
+  font-family: var(--font-family-mono);
+  font-style: italic;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+  border-bottom: none;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.profile-links a:hover {
+  opacity: 1;
+  border-bottom: none;
+}
+
+/* ── TOC ── */
+.toc-content {
+  margin: 0;
+}
+
+.toc-content ul {
+  list-style-type: decimal;
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.toc-content li {
+  list-style-type: decimal;
+  margin: 0;
+}
+
+.toc-block *::after,
+.toc-block *::before {
+  content: none !important;
+}
+
+.toc-block * {
+  border-top: none !important;
+}
+
+.toc-content a {
+  color: var(--color-text-muted);
+  border-bottom: 1px dotted !important;
+}
+
+.toc-content a:hover {
+  color: var(--color-text-primary);
+  border-bottom: 1px solid !important;
+}
+
+.back-link {
+    opacity: 0.4;
+    transition: opacity 0.2s;
+}
+
+.back-link:hover {
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+{{- $day := int (. | time.Format "2") -}}
+{{- $suffix := "th" -}}
+{{- if not (or (eq $day 11) (eq $day 12) (eq $day 13)) -}}
+  {{- if eq (mod $day 10) 1 }}{{- $suffix = "st" -}}
+  {{- else if eq (mod $day 10) 2 }}{{- $suffix = "nd" -}}
+  {{- else if eq (mod $day 10) 3 }}{{- $suffix = "rd" -}}
+  {{- end -}}
+{{- end -}}
+<time datetime="{{ . | time.Format "2006-01-02" }}">{{ . | time.Format "2006, Jan" }} {{ $day }}{{ $suffix }}</time>

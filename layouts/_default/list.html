@@ -1,0 +1,14 @@
+{{ define "main" }}
+    {{ .Content }}
+    <div class="time-list">
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <span>{{- partial "date" .Date -}}</span>
+                <span class="list-sep">⁘</span>
+                <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}

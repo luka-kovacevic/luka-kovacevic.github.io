@@ -1,0 +1,15 @@
+<div class="site-header">
+  <nav class="path-nav" aria-label="Main navigation">
+    <ol>
+      <li{{ if .IsHome }} class="current"{{ end }}>
+        <a href="/">Luka Kovačević</a>
+      </li>
+      &nbsp;
+      <li{{ if eq .Section "blog" }} class="current"{{ end }}>
+        <a href="/blog/">Blog</a>
+      </li>
+    </ol>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle dark mode">◐</button>
+</div>
+<hr class="header-divider" style="border: none; border-top: 0.5px solid var(--color-border);">

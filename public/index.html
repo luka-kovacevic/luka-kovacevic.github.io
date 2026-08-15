@@ -4,16 +4,39 @@
   dir="ltr"
 >
   <head>
-	<meta name="generator" content="Hugo 0.161.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.161.1">
     <meta charset="utf-8" />
+<script>
+  (function() {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = stored || (prefersDark ? 'dark' : 'light');
+    if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    else document.documentElement.setAttribute('data-theme', 'light');
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    });
+  })();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <title>
   Luka Kovacevic
 </title>
  
-<link rel="canonical" href="http://localhost:1313/" />
+<link rel="canonical" href="https://luka-kovacevic.com%C2%A7/" />
 
 
 <meta property="og:title" content="" />
@@ -22,11 +45,11 @@
   property="og:type"
   content="website"
 />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:url" content="https://luka-kovacevic.com%C2%A7/" />
  
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="" />
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Luka Kovacevic" />    <link rel="apple-touch-icon" sizes="57x57" href="/favicon_io/apple-icon-57x57.png">
+    <link rel="alternate" type="application/rss+xml" href="https://luka-kovacevic.com%C2%A7/index.xml" title="Luka Kovacevic" />    <link rel="apple-touch-icon" sizes="57x57" href="/favicon_io/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/favicon_io/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/favicon_io/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/favicon_io/apple-icon-76x76.png">
@@ -44,61 +67,51 @@
 <meta name="msapplication-TileImage" content="/favicon_io/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
  
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/custom.css">
+      <link rel="stylesheet" href="/css/main.min.6fbb50e3c0d58b37a29addacc8c9157c0e8e5db51b2827789e1ad4b9e29309c0.css" integrity="sha256-b7tQ48DVizeimt2syMkVfA6OXbUbKCd4nhrUueKTCcA=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/custom.min.799e85c1da50ac8d5da8459b530670f4aef83dfc390bbb9546b25ba7ab35dbdc.css" integrity="sha256-eZ6FwdpQrI1dqEWbUwZw9K74Pfw5C7uVRrJbp6s129w=" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="/css/site.min.ec66a7dfd124d7b532f6f8fda03efc482d259d5397a72438927264c7c1a46f1d.css" integrity="sha256-7Gan39Ek17Uy9vj9oD78SC0lnVOXpyQ4knJkx8Gkbx0=" crossorigin="anonymous">
+
+
 
 
   </head>
-  <body>
+  <body class="home">
     <a href="#main-content" class="skip-link">Skip to content</a>
-    <header role="banner"><nav class="path-nav" aria-label="Breadcrumb">
-  <ol>
-    
-  
-  <li class="current">
-    /
-    <a href="/">Luka Kovacevic</a>
-    
-  </li>
-
-  </ol>
-</nav>
-
-
-
-</header>
+    <header role="banner"><div class="site-header">
+  <nav class="path-nav" aria-label="Main navigation">
+    <ol>
+      <li class="current">
+        <a href="/">Luka Kovačević</a>
+      </li>
+      &nbsp;
+      <li>
+        <a href="/blog/">Blog</a>
+      </li>
+    </ol>
+  </nav>
+  <button id="theme-toggle" aria-label="Toggle dark mode">◐</button>
+</div>
+<hr class="header-divider" style="border: none; border-top: 0.5px solid var(--color-border);"></header>
     <main id="main-content" role="main">
-  <p>I&rsquo;m a final-year PhD student in Machine Learning for Biology at the <a href="https://www.cam.ac.uk">University of Cambridge</a>, and the <a href="https://www.mrc-bsu.cam.ac.uk">MRC Biostatistics Unit</a> under the supervision of <a href="https://www.c2d3.cam.ac.uk/directory/29341/professor-john-whittaker">Professor John Whittaker</a> and <a href="https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/mukherjee/curriculum-vitae/">Professor Sach Mukherjee</a>. I work on machine learning methods for cell biology, bridging ideas across machine learning, causality and design of experiments, to develop models that are identifiable, general, and easy to interpret.</p>
-<p>Previously, I spent 6 months at <a href="https://relationrx.com">Relation Therapeutics</a> as a Machine Learning Research Intern developing models for lab-in-the-loop. I’ve worked on adaptive clinical trial methodology at the MRC BSU and uncertainty quantification for COVID-19 forecasting at the <a href="https://www.southampton.ac.uk/research/institutes-centres/statistical-sciences-research-institute-s3ri">S3RI</a> in collaboration with PHE and Dstl. I hold an MSc in Statistical Science from the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.</p>
+  <p>I&rsquo;m a final-year PhD student in Machine Learning for Biology at the <a href="https://www.cam.ac.uk">University of Cambridge</a>, and the <a href="https://www.mrc-bsu.cam.ac.uk">MRC Biostatistics Unit</a> under the supervision of <a href="https://www.c2d3.cam.ac.uk/directory/29341/professor-john-whittaker">Professor John Whittaker</a> and <a href="https://www.dzne.de/en/research/research-areas/population-health-sciences/forschungsgruppen/mukherjee/curriculum-vitae/">Professor Sach Mukherjee</a>. I work on machine learning methods for cell biology. My research aims to answer real-world scientific questions by bridging ideas across machine learning, causality and design of experiments to develop models of cells that are general, and interpretable.</p>
+<p>I&rsquo;ve worked on many parts of the drug development and care pipeline. In 2024/25, I spent 6 months at <a href="https://relationrx.com">Relation Therapeutics</a> as a Machine Learning Research Intern working on models for target discovery in lab-in-the-loop. I developed adaptive clinical trial methodology at the MRC BSU, University of Cambridge. And I contributed to work on uncertainty quantification for COVID-19 forecasting at the <a href="https://www.southampton.ac.uk/research/institutes-centres/statistical-sciences-research-institute-s3ri">S3RI</a> collaborating with PHE and Dstl.</p>
+<p>I obtained my master&rsquo;s in Statistical Science at the University of Oxford and a BSc in Mathematics with Computer Science from the University of Southampton.</p>
 
 
 <h1 id="selected-publications">
   Selected Publications
 </h1>
 <ul>
-<li>Kovačević et al. &ldquo;Inductive Biases for Disentangled Representation Learning with Correlated Treatment&ndash;Nuisance Factors.&rdquo; NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science.</li>
-<li>Kovačević et al. &ldquo;Bayesian model averaging for partial ordering continual reassessment methods.&rdquo; Biostatistics 26.1 (2025): kxaf035.</li>
-<li>Kovačević et al. &ldquo;Simulation-based benchmarking for causal structure learning in gene perturbation experiments.&rdquo; arXiv preprint arXiv:2407.06015 (2024).</li>
+<li>Kovačević et al. &ldquo;Inductive Biases for Disentangled Representation Learning with Correlated Treatment&ndash;Nuisance Factors.&rdquo; NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science. (<a href="https://openreview.net/forum?id=xGWiPZJ0pZ">link</a>)</li>
+<li>Kovačević et al. &ldquo;Bayesian Model Averaging for Partial Ordering Continual Reassessment Methods&rdquo; Biostatistics 26.1 (2025): kxaf035. (<a href="https://academic.oup.com/biostatistics/article/26/1/kxaf035/8293928">link</a>)</li>
+<li>Kovačević et al. &ldquo;Simulation-based Benchmarking for Causal Structure Learning in Gene Perturbation Experiments.&rdquo; arXiv preprint arXiv:2407.06015 (2024). (<a href="https://arxiv.org/abs/2407.06015">link</a>)</li>
 </ul>
 
-  <div class="terminal-nav">
-    
-  <nav aria-label="Main navigation">
-    <ul>
-    <li>
-      <a href="https://github.com/luka-kovacevic">GitHub</a>
-    </li>
-    <li>
-      <a href="https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en">Scholar</a>
-    </li>
-    </ul>
-  </nav>
-
-  </div>
 </main>
-    <footer role="contentinfo"><p role="contentinfo">
-  &copy; 2026 Luka Kovacevic · theme by <a href="https://github.com/ntk148v/shibui">ntk148v</a>
-</p>
+    <footer role="contentinfo"><div class="terminal-nav home-footer">
+  <p class="footer-copy"> <a href="https://github.com/luka-kovacevic" target="_blank" rel="noopener">GitHub</a> ⁘ <a href="https://scholar.google.com/citations?user=JrrCIW4AAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a> &copy; 2026 Luka Kovacevic ⁘ Based on theme by <a href="https://github.com/ntk148v/shibui">ntk148v</a></p>
+</div>
 </footer>
   </body>
 </html>
